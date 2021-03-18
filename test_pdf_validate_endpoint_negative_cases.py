@@ -116,6 +116,3 @@ resp = requests.request("POST", URL, headers=get_header.get_header(2), data=payl
 assert resp.status_code == 400
 assert resp.text == '{"message": "Please do not delete the other signer\'s place"}'
 print(resp.text)
-.DS_Store
-.vscode/
-__pycache__
